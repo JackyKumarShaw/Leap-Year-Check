@@ -24,19 +24,19 @@ function check(y) {
     if(y>=1000 && y<=9999){
       if(y%400 == 0){
         console.log(color.yellow.bold("\n"+userName+"was born on a Leap Year!"));
-        console.log(color.bgCyanBright.bold.black("\nThank You " + username + " for trying this!"));
+        console.log(color.bgCyanBright.bold.black("\nThank You " + userName + " for trying this! You can share the screenshot of the result in your social media if you want!"));
       }
       else if(y%100 ===0){
         console.log(color.cyan.bold("\n"+userName+"was born on a Non-Leap Year!"));
-        console.log(color.bgCyanBright.bold.black("\nThank You " + userName + " for trying this!"));        
+        console.log(color.bgCyanBright.bold.black("\nThank You " + userName + " for trying this! You can share the screenshot of the result in your social media if you want!"));   
       }
       else if(y%4 === 0){
         console.log(color.yellow.bold("\n"+userName+"was born on a Leap Year!"));
-        console.log(color.bgCyanBright.bold.black("\nThank You " + userName + " for trying this!"));
+        console.log(color.bgCyanBright.bold.black("\nThank You " + userName + " for trying this! You can share the screenshot of the result in your social media if you want!"));
       }
       else{
         console.log(color.cyan.bold("\n"+userName+"was born on a Non-Leap Year!"));
-        console.log(color.bgCyanBright.bold.black("\nThank You " + userName + " for trying this!"));
+        console.log(color.bgCyanBright.bold.black("\nThank You " + userName + " for trying this! You can share the screenshot of the result in your social media if you want!"));
       }
     }
   }
